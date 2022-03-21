@@ -25,3 +25,33 @@ section {
     box-shadow: -2px 2px 20px 1px #f88847,
     2px -2px 20px 1px #f88847;
 }
+
+.simile{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+.smil_photos{
+    display: flex;
+    align-items: center;
+
+}
+
+.smil_photos img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.smil_photos h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7A7A7A;
+    margin-bottom: 8px;
+}
+
+.smil_title p{
+    margin-bottom: 10px;
+}
