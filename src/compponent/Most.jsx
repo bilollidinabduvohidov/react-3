@@ -93,3 +93,26 @@ function Most() {
                           </div>
                       </div>
                   </div>
+
+                  <div className="section_simile_box">
+                      <img src={foto6} alt="" />
+                      <h1>Try it Always</h1>
+                      <p>The world is a book, and those who do not travel read only one page.</p>
+                      <hr />
+                      <div className="simile">
+                          <div className="smil_photos">
+                              <img src={smil2} alt="" />
+                              <h5>Mat Vogels</h5>
+                          </div>
+                          <div className="smil_title">
+                              <p>9/25/2015</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  )
+}
+
+export default Most
