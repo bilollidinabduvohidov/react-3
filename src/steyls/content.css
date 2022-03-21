@@ -41,3 +41,36 @@ header{
 .nav_item a:hover{
     color: #d35207;
 }
+
+.main_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_box h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.main_box p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.main_box a{
+    color: #fff;
+    background: #DD783F;
+    padding: 7px 12px;
+    transition: .3s;
+}
+
+.main_box a:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px 4px #ee6e23c2;
+}
