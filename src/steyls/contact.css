@@ -1,0 +1,31 @@
+.photo_right{
+    width: 550px;
+}
+
+.photo_left{
+    width: 550px;
+}
+
+.bootom_link{
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DEDEDE;  
+    padding: 20px; 
+    width: 25%;
+    text-align: center;
+    transition: .3s;
+}
+
+.gale_link{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #2E2E2E;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.bootom_link:hover{
+    border-bottom: 1px solid #DD783F;
+}
