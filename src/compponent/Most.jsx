@@ -61,3 +61,19 @@ function Most() {
                           </div>
                       </div>
                   </div>
+
+                  <div className="section_simile_box">
+                      <img src={foto4} alt="" />
+                      <h1>Through the Mist</h1>
+                      <p>Travel makes you see what a tiny place you occupy in the world.</p>
+                      <hr />
+                      <div className="simile">
+                          <div className="smil_photos">
+                              <img src={smil1} alt="" />
+                              <h6>William Wong</h6>
+                          </div>
+                          <div className="smil_title">
+                              <p>9/25/2015</p>
+                          </div>
+                      </div>
+                  </div>
