@@ -1,0 +1,27 @@
+section {
+    padding-top: 10px;
+    background: #F7F7F7;
+    padding-bottom: 100px;
+}
+
+.section_box{ 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-bottom: 100px; */
+}
+
+.section_simile_box{
+    margin: 10px;
+    width: 300px;
+    box-shadow: -2px 2px 20px 1px #4443433b,
+    2px -2px 20px 1px #4443433b;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.section_simile_box:hover{
+    box-shadow: -2px 2px 20px 1px #f88847,
+    2px -2px 20px 1px #f88847;
+}
