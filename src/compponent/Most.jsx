@@ -30,3 +30,18 @@ function Most() {
                       </div>
                   </div>
 
+                  <div className="section_simile_box">
+                      <img src={foto2} alt="" />
+                      <h1>Sunny Side Up</h1>
+                      <p>No place is ever as bad as they tell you it’s going to be.</p>
+                      <hr />
+                      <div className="simile">
+                          <div className="smil_photos">
+                              <img src={smil2} alt="" />
+                              <h6>Mat Vogels</h6>
+                          </div>
+                          <div className="smil_title">
+                              <p>9/25/2015</p>
+                          </div>
+                      </div>
+                  </div>
