@@ -1,3 +1,8 @@
+import React from 'react'
+import '../steyls/content.css'
+
+function Content() {
+  return (
     <header>
       <nav className="navbar">
        <div className="container">
@@ -21,3 +26,18 @@
         </ul>
        </div>
       </nav>
+
+      <main>
+        <div className="container">
+          <div className="main_box">
+            <h1>Let's do it together.</h1>
+            <p>We travel the world in search of stories. Come along for the ride.</p>
+            <a href="#">View Latest Posts</a>
+          </div>
+        </div>
+      </main>
+    </header>
+  )
+}
+
+export default Content
